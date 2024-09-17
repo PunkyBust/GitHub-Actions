@@ -14,5 +14,3 @@ on:
           owner: context.repo.owner,
           repo: context.repo.repo,
         })
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
